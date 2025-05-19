@@ -9,11 +9,14 @@
     </head>
 
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
-            padding: 7.5% 15%;
+            margin: 7.5rem 17.5rem;
         }
         .cv-section {
-            margin: 4rem 0;
+            padding-top: 4rem;
         }
         .qualifications {
             display: flex;
@@ -40,13 +43,50 @@
             color: gray;
             white-space: nowrap;
         }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            align-content: center;
+            height: 100vh;
+            width: 16rem;
+        }
+        header ul {
+            list-style: none;
+            padding-left: 20%;
+        }
+        header ul li {
+            padding: 1.5em 0;
+        }
+        header ul li a {
+            color: gray;
+            text-decoration: none;
+            transition: color 0.3s ease, font-size 0.3s ease;
+        }
+        header ul li a:hover {
+            color: black;
+            font-size: large;
+            text-decoration: underline;
+        }
     </style>
 
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#career-summary">Career Summary</a></li>
+                    <li><a href="#qualifications-summary">Summary of Qualifications</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#career-history">Career History</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <h1>Anthony Herrera León</h1>
         
         <hr>
-
+        
         <section id="career-summary" class="cv-section">
             <h2>Career Summary</h2>
             <p>
