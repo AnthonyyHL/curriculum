@@ -11,68 +11,6 @@
         <title>Document</title>
     </head>
 
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        body {
-            margin: 7.5rem 17.5rem;
-        }
-        .cv-section {
-            padding-top: 4rem;
-        }
-        .qualifications {
-            display: flex;
-            justify-content: space-between;
-        }
-        .language-list {
-            display: flex;
-            padding: 0 5rem;
-            justify-content: space-between;
-        }
-        .module-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .module-header h3 {
-            margin: 0;
-            font-size: 1.2rem;
-        }
-
-        .module-dates {
-            font-size: 1rem;
-            color: gray;
-            white-space: nowrap;
-        }
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            align-content: center;
-            height: 100vh;
-            width: 16rem;
-        }
-        header ul {
-            list-style: none;
-            padding-left: 20%;
-        }
-        header ul li {
-            padding: 1.5em 0;
-        }
-        header ul li a {
-            color: gray;
-            text-decoration: none;
-            transition: color 0.3s ease, font-size 0.3s ease;
-        }
-        header ul li a:hover {
-            color: black;
-            font-size: large;
-            text-decoration: underline;
-        }
-    </style>
-
     <body>
         <header>
             <nav>
@@ -195,6 +133,25 @@
                 </div>
                 <p>Cambridge Assessment English – English B2 Level | Issued in May 2023</p>
             </article>
+        </section>
+
+        <section id="contact" class="cv-section">
+            <h2>Get in Touch</h2>
+            <form action="#">
+                <div>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+                </div>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+                <textarea name="message" id="message" class="form-control" rows="8" placeholder="Your Message Here"></textarea>
+            </form>
+            <div style="margin-top:20px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.7689649775532!2d-79.96767273049544!3d-2.147934799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13e2e3c7e3e1%3A0x6e5e5e5e5e5e5e5e!2sEscuela%20Superior%20Politécnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1716138000000!5m2!1ses-419!2sec"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="ESPOL, Guayaquil, Ecuador"></iframe>
+            </div>
         </section>
     </body>
 </html>
