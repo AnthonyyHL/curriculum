@@ -1,0 +1,76 @@
+#main-information-container {
+    position: fixed;
+    margin: var(--spacing-xl) 0;
+    margin-left: calc(var(--spacing-xl) * 2);
+    padding: var(--spacing-xl);
+    background-image: var(--gradient-bg);
+    border: solid var(--border-secondary) var(--border-width-xs);
+    border-radius: var(--radius-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: var(--description-container-width);
+    height: calc(var(--description-container-height) - var(--spacing-xl) * 2);
+    overflow-y: auto;
+    z-index: var(--z-fixed);
+    transition: transform 0.3s ease;
+}
+
+#main-information-container .profile-pic {
+    width: 100%;
+    border-radius: calc(var(--radius-xl)/2);
+}
+
+#main-information-container h4 {
+    font-size: var(--font-size-xs);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xs);
+    list-style: none;
+}
+
+#main-information-container p {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-primary);
+}
+
+#main-information-container .profile-social a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    border: solid var(--border-secondary) var(--border-width-xs);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-sm);
+    margin-right: var(--spacing-xs);
+    margin-bottom: calc(var(--spacing-xs) * 2);
+    transition: color var(--transition-normal);
+}
+
+#main-information-container .profile-social i {
+    font-size: var(--font-size-xs);
+    color: var(--text-primary);
+    transition: color var(--transition-normal);
+}
+
+#main-information-container .profile-social a:hover i {
+    color: var(--text-secondary);
+}
+
+#main-information-container button {
+    width: 100%;
+    padding: var(--spacing-sm);
+    background-image: var(--gradient-primary);
+    color: var(--bg-secondary);
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+    cursor: pointer;
+    transition: filter var(--transition-normal); /* Transición para el brillo */
+}
+
+#main-information-container button:hover {
+    filter: brightness(1.05); /* Aclarar el botón en hover */
+}
