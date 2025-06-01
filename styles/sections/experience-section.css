@@ -1,0 +1,55 @@
+.project-info p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: var(--font-size-base);
+}
+
+.project-info .project-title {
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: var(--spacing-xs);
+}
+
+.project-info .project-company {
+  color: var(--text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.achievements ul {
+  margin: 0;
+  padding-left: var(--spacing-lg);
+  list-style-type: disc;
+}
+
+.achievements li {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+
+.achievements li:last-child {
+  margin-bottom: 0;
+}
+
+.tools {
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-md);
+  border-top: var(--border-width-xs) solid var(--border-tertiary);
+}
+
+.tools .tools-label {
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-xs);
+  display: block;
+}
+
+.tools .tools-list {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

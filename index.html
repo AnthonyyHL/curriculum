@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="styles/css-variables.css">
         <link rel="stylesheet" href="styles/general-styles.css">
         <link rel="stylesheet" href="styles/profile-container.css">
+        <link rel="stylesheet" href="styles/sections/experience-section.css">
 
         <title>Document</title>
     </head>
@@ -133,23 +134,50 @@
         </section>
 
         <section id="career-history" class="cv-section">
-            <h2>Career History</h2>
-            <article class="project">
-                <div class="module-header">
-                    <h3>Globant, Guayaquil, Ecuador</h3>
-                    <span class="module-dates">May 2025 - Current</span>
-                </div>
-                <p>Testing Automation Engineer</p>
-                <p>Web Testing Framework - TAE KATA</p>
-                <strong>Responsibilities</strong>
-                
-                <ul>
-                    <li><p>Diagnosed and resolved critical cross-framework compatibility issues affecting mouse event interactions, enhancing element responsiveness and stability across different browser and application environments.</p></li>
-                    <li><p>Implemented cart, contact us, and product pages using BDD approach, creating detailed feature files and step definitions to ensure complete test coverage and maintain clear, reproducible test scenarios.</p></li>
-                    <li><p>Optimized test data management by leveraging Scenario Outlines, enabling efficient data-driven testing through iteration of test flows, which significantly reduced redundant test case writing and improved test suite maintainability.</p></li>
-                </ul>
-                <p><strong>Tools/Technologies:</strong> Python, Playwright, Pytest, Pytest-bdd, Cucumber.</p>
-            </article>
+            <h2 class="subtitle">Career History</h2 class="subtitle">
+
+            <table>
+                <tr>
+                    <td>May 2025 - Current</td>
+                    <td class="project-info">
+                        <p>
+                            <span class="project-title">Web Testing Framework - TAE KATA</span>
+                            as <span class="project-company">Testing Automation Engineer</span> at Globant
+                        </p>
+                    </td>
+                    <td class="achievements">
+                        <ul>
+                            <li>Implemented login, signup, contact us page, and test cases page functionality including both steps and feature files, adhering to BDD principles for maintainable test cases.</li>
+                            <li>Centralized user management in JSON files to facilitate credential handling across different files within the project, reducing code duplication. Implemented pre-test execution tasks and enhanced logging/reporting mechanisms through hooks to improve test reliability.</li>
+                            <li>Solved critical bugs affecting element identification and improving alert handling, benefiting the entire team and optimizing the test execution workflow.</li>
+                        </ul>
+                        <div class="tools">
+                            <span class="tools-label">Tools/Technologies:</span>
+                            <span class="tools-list">TypeScript, Node.js, Playwright, Cucumber, Azure DevOps, BDD, Screen Play pattern.</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>May 2025 - Current</td>
+                    <td class="project-info">
+                        <p>
+                            <span class="project-title">Web Testing Framework - TAE KATA II</span>
+                            as <span class="project-company">Testing Automation Engineer</span> at Globant
+                        </p>
+                    </td>
+                    <td class="achievements">
+                        <ul>
+                            <li>Diagnosed and resolved critical cross-framework compatibility issues affecting mouse event interactions, enhancing element responsiveness and stability across different browser and application environments.</li>
+                            <li>Implemented cart, contact us, and product pages using BDD approach, creating detailed feature files and step definitions to ensure complete test coverage and maintain clear, reproducible test scenarios.</li>
+                            <li>Optimized test data management by leveraging Scenario Outlines, enabling efficient data-driven testing through iteration of test flows, which significantly reduced redundant test case writing and improved test suite maintainability.</li>
+                        </ul>
+                        <div class="tools">
+                            <span class="tools-label">Tools/Technologies:</span>
+                            <span class="tools-list">Python, Playwright, Pytest, Pytest-bdd, Cucumber.</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </section>
 
         <section id="education" class="cv-section">

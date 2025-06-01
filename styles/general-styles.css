@@ -79,3 +79,79 @@ small {
   font-size: var(--font-size-sm);
   color: var(--text-muted);
 }
+
+.cv-section {
+  padding-top: calc(var(--navbar-height) + var(--spacing-xl) * 2);
+  min-height: calc(100vh - var(--navbar-height) - var(--spacing-xl) * 2);
+}
+
+.button {
+  background-color: transparent;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border: solid transparent var(--border-width-xs);
+  border-radius: var(--radius-lg);
+}
+
+.button a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  transition: color var(--transition-normal);
+}
+
+.non-active-button:hover {
+  color: var(--text-primary);
+  border: solid var(--border-tertiary) var(--border-width-xs);
+
+  a {
+      color: var(--text-primary);
+  }
+}
+
+.active-button {
+  border: solid var(--border-secondary) var(--border-width-xs);
+}
+
+.active-button a {
+  color: var(--text-primary);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+  margin-bottom: var(--spacing-xl);
+}
+
+table tr {
+  border-top: var(--border-width-xs) solid var(--border-primary);
+  border-bottom: var(--border-width-xs) solid var(--border-primary);
+}
+
+table td {
+  padding: var(--spacing-lg) var(--spacing-md);
+  vertical-align: top;
+  font-family: var(--font-family-primary);
+}
+
+table td:first-child {
+  width: 150px;
+  min-width: 150px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-muted);
+  white-space: nowrap;
+  padding-right: var(--spacing-lg);
+}
+
+table td:nth-child(2) {
+  width: 300px;
+  min-width: 250px;
+  padding-right: var(--spacing-lg);
+}
+
+table td:nth-child(3) {
+  flex: 1;
+  min-width: 0;
+}
