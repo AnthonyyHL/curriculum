@@ -16,7 +16,10 @@
         <link rel="stylesheet" href="styles/general-styles.css">
         <link rel="stylesheet" href="styles/profile-container.css">
         <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/sections/home-section.css">
+        <link rel="stylesheet" href="styles/sections/about-me-section.css">
         <link rel="stylesheet" href="styles/sections/experience-section.css">
+        <link rel="stylesheet" href="styles/sections/contact-us-section.css">
 
         <title>Document</title>
     </head>
@@ -51,7 +54,7 @@
             <nav id="cv-nav">
                 <ul id="cv-nav-list">
                     <li class="cv-nav-element button active-button"><a href="#home">Home</a></li>
-                    <li class="cv-nav-element button non-active-button"><a href="#career-summary">About Me</a></li>
+                    <li class="cv-nav-element button non-active-button"><a href="#about-me">About Me</a></li>
                     <li class="cv-nav-element button non-active-button"><a href="#career-history">Portfolio</a></li>
                     <li class="cv-nav-element button non-active-button"><a href="#education">Education</a></li>
                     <li class="cv-nav-element button non-active-button"><a href="#contact">Contact</a></li>
@@ -75,12 +78,13 @@
             </nav>
         </header>
 
-        <h1>Anthony Herrera León</h1>
-        
-        <hr>
-        
-        <section id="career-summary" class="cv-section">
-            <h2>Career Summary</h2>
+        <section id="home" class="cv-section">
+            <p id="self-introduction" class="gradient-text">I'm Anthony Herrera, TAE and Backend Developer.</p>
+            <button id="download-cv-button" class="button non-active-button">
+                <a href="#">Download CV</a>
+                <i class="fa-solid fa-arrow-down-to-bracket"></i>
+            </button>
+        </section>
             <div>
                 <p>
                     Anthony is a computer science student with experience in test automation engineering and backend development. With a strong foundation in test automation frameworks and tools such as Selenium, Playwright, and Postman. He combines these testing skills with a solid background in web development technologies, database design, and systems analysis. Anthony stands out for his ability to work in teams, lead projects, and communicate ideas effectively, while maintaining a strong commitment to quality assurance and good development practices.
