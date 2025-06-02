@@ -85,6 +85,10 @@
                 <i class="fa-solid fa-arrow-down-to-bracket"></i>
             </button>
         </section>
+
+        <section id="about-me" class="cv-section">
+            <h2 class="subtitle">Career Summary</h2 class="subtitle">
+            <span class="gradient-text">Automating what you do in real life</span>
             <div>
                 <p>
                     Anthony is a computer science student with experience in test automation engineering and backend development. With a strong foundation in test automation frameworks and tools such as Selenium, Playwright, and Postman. He combines these testing skills with a solid background in web development technologies, database design, and systems analysis. Anthony stands out for his ability to work in teams, lead projects, and communicate ideas effectively, while maintaining a strong commitment to quality assurance and good development practices.
@@ -113,7 +117,7 @@
         </section>
 
         <section id="qualifications-summary" class="cv-section">
-            <h2>Summary of Qualifications</h2>
+            <h2 class="subtitle">Summary of Qualifications</h2 class="subtitle">
             <span>Proficient in</span>
             <div class="qualifications">
                 <ul>
@@ -154,14 +158,31 @@
                     <li>Pytest</li>
                 </ul>
             </div>
-        </section>
-
-        <section id="languages" class="cv-section">
-            <h2>Languages</h2>
-            <ul class="language-list">
-                <li>Spanish (Native - C2)</li>
-                <li>English (Advanced - B2)</li>
-            </ul>
+            <!-- Tabla de tipos de skills -->
+            <div style="overflow-x:auto; margin-top:2rem;">
+                <table class="skills-table" style="border-collapse:collapse; width:100%;">
+                    <tr>
+                        <th>Tipo de Skill</th>
+                        <th>Ejemplo</th>
+                        <th>Nivel</th>
+                    </tr>
+                    <tr>
+                        <th>Automatización</th>
+                        <td>Selenium</td>
+                        <td>Avanzado</td>
+                    </tr>
+                    <tr>
+                        <th>Lenguaje de Programación</th>
+                        <td>Python</td>
+                        <td>Avanzado</td>
+                    </tr>
+                    <tr>
+                        <th>Framework de Testing</th>
+                        <td>Pytest</td>
+                        <td>Intermedio</td>
+                    </tr>
+                </table>
+            </div>
         </section>
 
         <section id="career-history" class="cv-section">
@@ -231,8 +252,8 @@
             <h2 class="gradient-text">Get in Touch</h2>
             <form action="#" method="POST">
                 <div>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Name">
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name*" required>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Email Address*" required>
                 </div>
                 <input type="text" name="company" id="company" class="form-control" placeholder="Company Name">
                 <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number*" required>
