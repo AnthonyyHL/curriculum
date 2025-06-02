@@ -217,21 +217,25 @@
         </section>
 
         <section id="contact" class="cv-section">
-            <h2>Get in Touch</h2>
-            <form action="#">
+            <h2 class="gradient-text">Get in Touch</h2>
+            <form action="#" method="POST">
                 <div>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Name">
                     <input type="text" name="email" id="email" class="form-control" placeholder="Email">
                 </div>
-                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
-                <textarea name="message" id="message" class="form-control" rows="8" placeholder="Your Message Here"></textarea>
+                <input type="text" name="company" id="company" class="form-control" placeholder="Company Name">
+                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number*" required>
+                <textarea name="message" id="message" class="form-control" rows="8" placeholder="A Few Words*" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
             </form>
-            <div style="margin-top:20px;">
+            
+            <div style="margin-top: var(--spacing-xl);">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.7689649775532!2d-79.96767273049544!3d-2.147934799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13e2e3c7e3e1%3A0x6e5e5e5e5e5e5e5e!2sEscuela%20Superior%20Politécnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1716138000000!5m2!1ses-419!2sec"
                     width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
-                    title="ESPOL, Guayaquil, Ecuador"></iframe>
+                    title="ESPOL, Guayaquil, Ecuador">
+                </iframe>
             </div>
         </section>
         <script src="color-switcher.js"></script>

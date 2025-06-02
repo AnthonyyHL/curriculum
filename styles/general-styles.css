@@ -155,3 +155,27 @@ table td:nth-child(3) {
   flex: 1;
   min-width: 0;
 }
+
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: var(--font-size-6xl);
+  font-weight: var(--font-weight-semibold);
+  width: 75%;
+}
+
+.description-title {
+  font-size: var(--font-size-xs);
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-xs);
+  list-style: none;
+}
+
+.description {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+}

@@ -23,19 +23,6 @@
     border-radius: calc(var(--radius-xl)/2);
 }
 
-#main-information-container h4 {
-    font-size: var(--font-size-xs);
-    color: var(--text-secondary);
-    margin-bottom: var(--spacing-xs);
-    list-style: none;
-}
-
-#main-information-container p {
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-medium);
-    color: var(--text-primary);
-}
-
 #main-information-container .profile-social a {
     display: inline-flex;
     align-items: center;
