@@ -5,6 +5,8 @@
   --bg-secondary: #ffffff;
   --bg-card: #ffffff;
   --bg-sidebar: #f1f5f9;
+
+  --bg-primary-contrast: #0f172a;
   
   /* Text Colors */
   --text-primary: #1e293b;
@@ -20,6 +22,7 @@
   /* Borders and Separators */
   --border-primary: #e2e8f0;
   --border-secondary: #cbd5e1;
+  --border-tertiary: #e2e6ec;
   
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -44,6 +47,8 @@
   --bg-secondary: #1e293b;
   --bg-card: #334155;
   --bg-sidebar: #1e293b;
+
+  --bg-primary-contrast: #f8fafc;
   
   /* Text Colors */
   --text-primary: #f8fafc;
@@ -98,6 +103,8 @@
   --font-size-2xl: 1.5rem;
   --font-size-3xl: 1.875rem;
   --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
   
   --font-weight-normal: 400;
   --font-weight-medium: 500;
@@ -137,4 +144,6 @@
 :root {
   --description-container-width: 16rem;
   --description-container-height: 100vh;
+
+  --navbar-height: 35.59px;
 }

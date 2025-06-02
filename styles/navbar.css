@@ -1,0 +1,39 @@
+#cv-nav {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    margin: var(--spacing-xl) 0;
+    margin-left: calc((var(--description-container-width) + var(--spacing-xl) * 2) + var(--spacing-xl));
+    margin-right: calc(var(--spacing-xl) * 2);
+    width: calc(100% - (var(--spacing-xl) * 5 + var(--description-container-width)));
+    height: var(--navbar-height);
+    background-color: transparent;
+    z-index: 1000;
+}
+
+#cv-nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-sm);
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#theme-switcher input {
+    display: none;
+}
+
+#theme-switcher svg {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+
+#theme-switcher svg > g > g     {
+    fill: var(--bg-primary-contrast);
+}

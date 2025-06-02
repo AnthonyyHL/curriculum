@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="styles/css-variables.css">
         <link rel="stylesheet" href="styles/general-styles.css">
         <link rel="stylesheet" href="styles/profile-container.css">
+        <link rel="stylesheet" href="styles/navbar.css">
         <link rel="stylesheet" href="styles/sections/experience-section.css">
 
         <title>Document</title>
@@ -50,14 +51,30 @@
         </article>
         
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#career-summary">Career Summary</a></li>
-                    <li><a href="#qualifications-summary">Summary of Qualifications</a></li>
-                    <li><a href="#languages">Languages</a></li>
-                    <li><a href="#career-history">Career History</a></li>
-                    <li><a href="#education">Education</a></li>
+            <nav id="cv-nav">
+                <ul id="cv-nav-list">
+                    <li class="cv-nav-element button active-button"><a href="#home">Home</a></li>
+                    <li class="cv-nav-element button non-active-button"><a href="#career-summary">About Me</a></li>
+                    <li class="cv-nav-element button non-active-button"><a href="#career-history">Portfolio</a></li>
+                    <li class="cv-nav-element button non-active-button"><a href="#education">Education</a></li>
+                    <li class="cv-nav-element button non-active-button"><a href="#contact">Contact</a></li>
+                    <li class="cv-nav-element button non-active-button"><a href="#references">References</a></li>
                 </ul>
+                <div id="theme-switcher">
+                    <label for="theme-mode-btn" class="color-mode-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 24 24" version="1.1">
+                            <title>ic_fluent_dark_theme_24_regular</title>
+                            <desc>Created with Sketch.</desc>
+                            <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
+                                    <path d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z" id="🎨-Color">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </label>
+                    <input type="checkbox" id="theme-mode-btn">
+                </div>
             </nav>
         </header>
 
