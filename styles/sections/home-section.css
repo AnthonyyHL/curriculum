@@ -1,0 +1,44 @@
+#home {
+    align-content: end;
+    bottom: 0;
+    left: 0;
+}
+
+#download-cv-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#download-cv-button dotlottie-player {
+    width: 2rem;
+    height: 2rem;
+}
+
+#circular-scroll-indicator {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    animation: effect 8s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#circular-scroll-indicator span {
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 75px;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: capitalize;
+    color: black;
+}

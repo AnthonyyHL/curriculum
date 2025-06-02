@@ -1,0 +1,19 @@
+#about-me a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+#about-me div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-me div > p {
+    flex: 3;
+    font-size: var(--font-size-2xl);
+    padding-right: 5rem;
+}
+
+#about-me div > ul {
+    list-style: none;
+}
